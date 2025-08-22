@@ -2,9 +2,9 @@ name: Hello World
 
 on:
   workflow_dispatch:   # Manual trigger
-  push:
-    branches:
-      - main           # Trigger only when pushing to main branch
+  # push:
+  #   branches:
+  #     - main           # Trigger only when pushing to main branch
 
 jobs:
   hello-job:
